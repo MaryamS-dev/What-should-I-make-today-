@@ -1,0 +1,70 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  width: 50%;
+  border-radius: 15px;
+  border: solid 10px rgb(192, 73, 52);
+
+}
+
+body{
+  background-image:linear-gradient(white, rgb(240, 176, 173));
+  color: white;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  font-family: sans-serif;
+  
+}
+
+input{
+  height: 50px;
+  width: 350px;
+  font-size: 30px;
+  padding: 10px;
+  margin: 20px 0 200px 100px;
+}
+
+button{
+  height: 50px;
+  width: 200px;
+  font-size: 30px;
+  border-radius: 10px;
+  background-color: rgb(144, 240, 244);
+  margin-bottom: 50px;
+  border: none;
+  color:rgb(192, 73, 52);
+
+}
+
+h1{
+  font-size: 65px;
+  color:rgb(192, 73, 52);
+}
+
+h2{
+  font-size: 45px;
+  width: 60%;
+  color: rgb(192, 73, 52);
+}
+
+h3{
+  font-size: 25px;
+  width: 60%;
+  color: rgb(59, 56, 56);
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
